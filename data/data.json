@@ -1,0 +1,57 @@
+{
+    "users": [
+        {
+            "user_id": 1,
+            "nombre": "Juan",
+            "email": "juan@test.com"
+        },
+        {
+            "user_id": 2,
+            "nombre": "Mar\u00eda",
+            "email": "maria@test.com"
+        },
+        {
+            "user_id": 3,
+            "nombre": "Pedro",
+            "email": "pedro@test.com"
+        }
+    ],
+    "type_message_rate": [
+        {
+            "type_id": 1,
+            "type": "Status",
+            "subject": "Status Notification",
+            "message": "This is a status update",
+            "rate": 2,
+            "unit": "minutes"
+        },
+        {
+            "type_id": 2,
+            "type": "News",
+            "subject": "New Notification",
+            "message": "This is a daily new",
+            "rate": 1,
+            "unit": "days"
+        },
+        {
+            "type_id": 3,
+            "type": "Marketing",
+            "subject": "Marketing Notification",
+            "message": "This is a marketing AD",
+            "rate": 3,
+            "unit": "hours"
+        }
+    ],
+    "sended_time": [
+        {
+            "user_id": 1,
+            "type_id": 1,
+            "sended_at": 1718662129
+        },
+        {
+            "user_id": 1,
+            "type_id": 2,
+            "sended_at": 1718658138
+        }
+    ]
+}
