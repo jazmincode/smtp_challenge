@@ -1,4 +1,4 @@
-# modak_test
+# SMTP_test
  [Backend] Rate-Limited Notification Service
 
 
